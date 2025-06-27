@@ -13,7 +13,7 @@ from rest_framework.permissions import IsAuthenticated
 from .utils import full_learning_support
 from django.http import StreamingHttpResponse
 import openai
-openai.api_key = "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"
+openai.api_key = ""
 
 def chat_stream(request):
     import json
