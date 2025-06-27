@@ -1,8 +1,7 @@
 import openai
 import requests
 # NOTE: Use environment variables in production. This is just for testing/demo.
-openai.api_key = ""  # Replace with your actual OpenAI key
-YOUTUBE_API_KEY = ""
+
 
 
 def ai_generate_suggestion(note):

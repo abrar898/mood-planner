@@ -12,8 +12,7 @@ from django.db.models import Avg
 from rest_framework.permissions import IsAuthenticated
 from .utils import full_learning_support
 from django.http import StreamingHttpResponse
-import openai
-openai.api_key = ""
+
 
 def chat_stream(request):
     import json
