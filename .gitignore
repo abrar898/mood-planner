@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# .gitignore
+.env
+__pycache__/
+*.pyc
+*.log
+tempCodeRunnerFile.py
+# Django settings
+backend/backend/settings.py
+backend/moodapp/tempCodeRunnerFile.py
+backend/moodapp/utils.py
+backend/moodapp/views.py
