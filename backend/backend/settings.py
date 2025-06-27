@@ -14,7 +14,7 @@ from datetime import timedelta
 from pathlib import Path
 # settings.py
 import os
-OPENAI_API_KEY = os.getenv("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")
+# OPENAI_API_KEY = os.getenv("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")
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
